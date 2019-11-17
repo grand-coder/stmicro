@@ -1,6 +1,6 @@
 # 基礎語法
 
-## 環境安裝
+## 本地環境安裝
 
 ### Python版本
 
@@ -15,6 +15,10 @@
 [PyCharm全版本](https://www.jetbrains.com/pycharm/download/other.html)
 
 建議安裝 2018.2 版本，支援 jupyter notebook 的使用
+
+## 線上環境
+
+[Repl.it](https://repl.it)
 
 ## 變數的創造
 
