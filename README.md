@@ -15,3 +15,20 @@
 [PyCharm全版本](https://www.jetbrains.com/pycharm/download/other.html)
 
 建議安裝 2018.2 版本，支援 jupyter notebook 的使用
+
+## 變數的創造
+
+我們列出和傳統語言的不同點
+
+### 不需要強制型別
+
+```python
+a = 3
+```
+
+### 隨時可以更換背後的資料型態
+
+```python
+a = 3
+a = "hello"
+```
