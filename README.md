@@ -197,7 +197,6 @@ print("是否是我要的結尾:", a.endswith("lo"))
     是否是我要的結尾: True
 
 
-\newpage
 
 # 進階型態常用操作
 
@@ -452,7 +451,6 @@ for k, v in dict1.items():
     名字: weight 值: 75
 
 
-\newpage
 
 # 迴圈練習
 
@@ -726,7 +724,6 @@ print("15是否為2的次方數:", isPowerOfTwo(15))
     15是否為2的次方數: False
 
 
-\newpage
 
 # 進位
 
@@ -863,7 +860,6 @@ print("1到22的自除數:", selfDividingNumbers(1, 22))
     1到22的自除數: [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22]
 
 
-\newpage
 
 # 字典使用
 
