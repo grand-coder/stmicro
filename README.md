@@ -199,6 +199,8 @@ print("是否是我要的結尾:", a.endswith("lo"))
 
 ## List操作
 
+List 拿來存放同類型的資料，基本上就是 Array，但差別在於 list 的長度是可變的
+
 ### 基本操作
 
 重要運算 | 效果 | 例子 | 注意事項
@@ -391,6 +393,8 @@ print("丟掉東西後:", set1)
 
 ## Dictionary 操作
 
+字典拿來存放一個複雜資料
+
 ### 基本操作
 
 字典是一個 {名字:值, 名字:值} 的集合
@@ -447,3 +451,22 @@ for k, v in dict1.items():
     名字: height 值: 175
     名字: weight 值: 75
 
+## Tuple 操作
+
+Tuple 是簡化版本的字典，不使用欄位名稱，直接使用位置，盡量別當成 List 使用
+
+### 基本操作
+
+Tuple 的語法 (第一個資料, 第二個資料)
+
+```python
+# 創造一個 tuple
+person = ("Elwing", 175, 75)
+# 兩個tuple相加, 注意tuple裡如果只有一個東西, 必須在最後放一個,
+person = person + ("Taipei", )
+# tuple支援所有的位置操作
+print(person[-1])
+# tuple內建不支援刪除操作, 因為python假定你只是在短暫的時間使用
+# 但要做還是可以改用加法做(建議不要)
+print(person[:2] + person[3:])
+```
